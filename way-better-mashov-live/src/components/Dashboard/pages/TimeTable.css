@@ -1,0 +1,55 @@
+.timetable-grid-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.timetable-grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111;
+}
+
+.timetable-grid th,
+.timetable-grid td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.timetable-grid th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.timetable-grid tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.time-cell {
+  font-weight: bold;
+  width: 120px;
+  background-color: #fafafa;
+}
+
+.lesson-cell {
+  min-width: 140px;
+}
+
+.free-period {
+  color: #888;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .timetable-grid th,
+  .timetable-grid td {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+
+  .time-cell {
+    width: 90px;
+  }
+}

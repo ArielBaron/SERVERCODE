@@ -1,0 +1,47 @@
+body{
+    font: 1.15em sans-serif;
+    background-color: beige
+}
+.eqution-container{
+    font: 1em sans-serif;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    border: 4px black solid;
+    height: 85px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    margin: 20px auto;
+    width: 300px;
+}
+.additional-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+    width: 300px;
+    float: left;
+}
+
+.grid-item{
+    padding: 30px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+.grid-item:hover{
+    background-color: rgb(178, 90, 22)
+}
+.title{
+    font: 0.75em;
+}
+
+

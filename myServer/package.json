@@ -1,0 +1,21 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo 'REMEMBER TO RUN: cloudflared tunnel run main' ; node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mashovscraper": "github:ArielBaron/mashovscraper#v1.1.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "playwright": "^1.57.0"
+  }
+}

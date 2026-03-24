@@ -1,0 +1,72 @@
+.table-container {
+  overflow-x: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.behavior-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  direction: rtl;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.behavior-table thead {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.behavior-table th {
+  padding: 10px 12px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.behavior-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+}
+
+.behavior-table tbody tr:hover {
+  background-color: #f2f7fb;
+  transition: background-color 0.2s ease;
+}
+
+.behavior-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Highlight absences in a softer red */
+.behavior-table tbody tr.absence {
+  background-color: #fff2f2;
+}
+
+.behavior-table tbody tr.absence:hover {
+  background-color: #ffe5e5;
+}
+
+.event-cell {
+  font-weight: 600;
+}
+
+.behavior-table tbody tr.absence .event-cell {
+  color: #c62828;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .behavior-table {
+    font-size: 13px;
+  }
+  
+  .behavior-table th,
+  .behavior-table td {
+    padding: 6px 8px;
+  }
+}

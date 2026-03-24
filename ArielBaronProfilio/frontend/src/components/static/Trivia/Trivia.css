@@ -1,0 +1,29 @@
+.result-box {
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.result-title {
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-score {
+  color: #27ae60;
+}
+
+.result-message {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin: 13px;
+}

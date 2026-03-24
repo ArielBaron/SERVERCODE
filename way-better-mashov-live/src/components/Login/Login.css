@@ -1,0 +1,86 @@
+/* Full page centering */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card container */
+.login-card {
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+/* Heading */
+.login-card h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #102a43;
+}
+
+/* File input styling */
+.file-input {
+  margin-bottom: 1rem;
+}
+
+/* Form inputs */
+.login-form input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #bcccdc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.login-form input:focus {
+  border-color: #486581;
+  box-shadow: 0 0 0 2px rgba(72, 101, 129, 0.2);
+  outline: none;
+}
+
+/* Submit button */
+.login-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #486581;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-form button:hover {
+  background-color: #334e68;
+}
+
+/* Back to home link */
+.back-home {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #486581;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.back-home:hover {
+  color: #334e68;
+}
